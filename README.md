@@ -1,4 +1,4 @@
-Radd（https://github.com/linyclar/radd）の動作確認用のリポジトリです。
+[Radd](https://github.com/linyclar/radd)の動作確認用のリポジトリです。
 
 # 起動、接続
 ```bash
