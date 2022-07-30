@@ -1,24 +1,14 @@
-# README
+Radd（https://github.com/linyclar/radd）の動作確認用のリポジトリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 起動、接続
+```bash
+docker-compose up -d
+docker-compose exec app bash
+```
 
-Things you may want to cover:
+# コンテナ内での操作
+```bash
+bundle
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+以降、`bin/rails g radd:rule accounting/calc`などのコマンドでRaddによるファイルジェネレータの挙動を確認できます。
